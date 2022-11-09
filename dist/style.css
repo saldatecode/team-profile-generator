@@ -1,7 +1,57 @@
-header{
+
+* {
+    box-sizing: border-box;
+    }
+
+
+body {
+    background-color: white;
     color: black;
-    background-color: red;
+    font-size: 20px;
+    justify-content: baseline;
+    align-items: baseline;
+    flex-wrap: wrap;
+    flex: auto;
+    display: grid;
+    place-items: center;
+    
+}
+
+
+
+
+div {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2) ;
+    width: 300px;
+    height: 250px ;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+    color: black;
     text-align: center;
     padding: 10px;
+    border: black, 3px, solid;
+    margin: 4px;
+
 
 }
+
+body div{
+    border: black, solid, 2px;
+}
+
+body div h3{
+margin: 5px;
+}
+
+body div h2{
+margin: 5px;
+}
+
+
+body div h1 {
+    color: tan;
+    margin: 5px 
+}
+
